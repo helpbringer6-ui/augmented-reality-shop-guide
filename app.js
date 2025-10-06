@@ -11,3 +11,5 @@ function startARNavigation(location) {
     console.log('Starte AR-Navigation für:', location);
     // Hier könnte der Code zum Starten der Augmented-Reality-Navigation implementiert werden.
 }
+
+document.getElementById('location-input').setAttribute('placeholder', 'Standort eingeben');
